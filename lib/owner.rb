@@ -61,7 +61,7 @@ class Owner
     pets = self.dogs + self.cats 
 
     pets.each do |pet|
-    pet.owner = nil 
+    pet.owner = nil # .owner is coming from attribute , cat or dog has an atribute of owner ,so you can equal to anything you want 
     pet.mood = "nervous"
    
     end 
